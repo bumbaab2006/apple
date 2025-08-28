@@ -1,0 +1,114 @@
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+.gap .inter p:first-child {
+  font-weight: 700;
+  font-style: bold;
+}
+
+.flex {
+  display: flex;
+}
+.row {
+  flex-direction: row;
+}
+.column {
+  flex-direction: column;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+}
+.juscenter {
+  justify-content: center;
+}
+.alicenter {
+  align-items: center;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.gapuni {
+  gap: 12px;
+}
+.head {
+  justify-content: space-between;
+  height: 48px;
+}
+.buttonbar {
+  width: 48px;
+  margin-right: 40px;
+}
+.buttonbar img:last-child {
+  margin-top: 14px;
+  height: 18px;
+  width: 18px;
+}
+.headtext {
+  height: 73px;
+  width: 390px;
+}
+.azpro {
+  background-image: url(/Figure.png);
+  height: 500px;
+  width: 390px;
+}
+.inazpro {
+  height: 114px;
+  width: 241px;
+  right: 74px;
+  top: 350px;
+  gap: 16px;
+}
+.gapazpro {
+  gap: 4px;
+}
+.gap .inter p {
+  margin: 0;
+}
+.learnmoreandbuy {
+  height: 36px;
+  width: 241px;
+  gap: 12px;
+  margin-top: 16px;
+}
+.learnmore {
+  width: 107px;
+  height: 100%;
+  background-color: rgba(0, 113, 227, 1);
+  border-radius: 999px;
+}
+.buy {
+  width: 66px;
+  height: 100%;
+  color: rgba(41, 151, 255, 1);
+  border-radius: 999px;
+  border-color: rgba(41, 151, 255, 1);
+  border-style: solid;
+}
+.az {
+  background-image: url(/ipaz.png);
+  height: 500px;
+  width: 390px;
+}
+.inaz {
+  top: 36px;
+  right: 75px;
+}
+.ipadair {
+  height: 500px;
+  width: 390px;
+  background-image: url(/ipadair.jpg);
+  background-position: center;
+}
+.inipadair {
+  top: 36px;
+  left: 52 px;
+}
