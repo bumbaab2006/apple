@@ -1,13 +1,52 @@
+.forbackground {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   color: white;
+  text-align: center;
 }
-.gap .inter p:first-child {
+.interb {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  text-align: center;
+}
+.iwatch .inter:nth-child(2) {
+  height: 16px;
+  width: 152px;
+  color: black;
+
+  text-align: center;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.inter .interhead p {
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
   font-weight: 700;
   font-style: bold;
+}
+.gap .column .inter p:nth-child(2) {
+  font-weight: 700;
+  font-style: bold;
+}
+.iwatch .inter p:last-child {
+  color: black;
 }
 
 .flex {
@@ -26,12 +65,10 @@
 .juscenter {
   justify-content: center;
 }
-.alicenter {
+.alcenter {
   align-items: center;
 }
-.relative {
-  position: relative;
-}
+
 .absolute {
   position: absolute;
 }
@@ -57,15 +94,12 @@
 }
 .azpro {
   background-image: url(/Figure.png);
-  height: 500px;
-  width: 390px;
 }
 .inazpro {
   height: 114px;
   width: 241px;
-  right: 74px;
-  top: 350px;
   gap: 16px;
+  padding-top: 350px;
 }
 .gapazpro {
   gap: 4px;
@@ -73,6 +107,10 @@
 .gap .inter p {
   margin: 0;
 }
+.gap .interb p {
+  margin: 0;
+}
+
 .learnmoreandbuy {
   height: 36px;
   width: 241px;
@@ -85,6 +123,9 @@
   background-color: rgba(0, 113, 227, 1);
   border-radius: 999px;
 }
+.learnmore p {
+  color: white;
+}
 .buy {
   width: 66px;
   height: 100%;
@@ -95,20 +136,78 @@
 }
 .az {
   background-image: url(/ipaz.png);
-  height: 500px;
-  width: 390px;
 }
 .inaz {
-  top: 36px;
-  right: 75px;
+  padding-top: 36px;
 }
 .ipadair {
-  height: 500px;
-  width: 390px;
   background-image: url(/ipadair.jpg);
-  background-position: center;
 }
 .inipadair {
-  top: 36px;
-  left: 52 px;
+  padding-bottom: 300px;
+}
+
+.rnbwhello {
+  font-size: 14px;
+
+  background: linear-gradient(to right, #0090f7, #ba62fc, #f2416b, #f55600);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  width: 166px;
+  height: 18px;
+}
+.rnbwhello p {
+  margin: 0;
+}
+.airpod {
+  background-image: url(/airpod.jpg);
+}
+.inairpod {
+  padding-top: 330px;
+}
+.inairpod p:nth-child(2) {
+  height: 53px;
+  width: 241px;
+}
+.iwatch {
+  background-image: url(/iwatch.jpg);
+}
+.iniwatch {
+  height: 135px;
+  width: 235px;
+  gap: 16px;
+  padding-top: 46px;
+}
+.iwatch p {
+  margin: 0;
+}
+
+.applelogostyle {
+  width: 22px;
+  height: 27px;
+  padding-bottom: 5px;
+}
+.iwatch .learnmore p:first-child {
+  color: white;
+}
+.macbook {
+  background-image: url(/macbook.png);
+}
+.inmacbook {
+  width: 257px;
+  height: 115px;
+  gap: 16px;
+}
+.forsmallbussines {
+  background-image: url(/forsmall.png);
+}
+.inforsmallbussines {
+  height: 168px;
+  width: 257px;
+  margin-top: 47px;
+}
+@media (min-width: 768px) {
+  .azpro {
+    background-image: url(/ippro.png);
+  }
 }
