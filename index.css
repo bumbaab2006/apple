@@ -107,7 +107,7 @@
 .gap .inter p {
   margin: 0;
 }
-.gap .interb p {
+.gapuni .interb p {
   margin: 0;
 }
 
@@ -159,6 +159,9 @@
 .rnbwhello p {
   margin: 0;
 }
+.hos1 {
+  flex-direction: column;
+}
 .airpod {
   background-image: url(/airpod.jpg);
 }
@@ -190,6 +193,9 @@
 .iwatch .learnmore p:first-child {
   color: white;
 }
+.hos2 {
+  flex-direction: column;
+}
 .macbook {
   background-image: url(/macbook.png);
 }
@@ -206,8 +212,124 @@
   width: 257px;
   margin-top: 47px;
 }
+.hos3 {
+  flex-direction: column;
+}
+.carrierdeals {
+  background-image: url(/carrier.png);
+  height: 500px;
+  width: 100%;
+}
+.incarrierdeals {
+  height: 152px;
+  width: 314px;
+  padding-top: 301px;
+}
+.carrierdeals .learnmore {
+  width: 130px;
+}
+.trade {
+  background-image: url(/trade.jpg);
+  height: 500px;
+  width: 100%;
+}
+.intrade {
+  width: 285px;
+  height: 130px;
+  padding-top: 51px;
+}
+.trade .learnmore {
+  width: 160px;
+}
+.last {
+}
+.scrollbox {
+  height: 533px;
+  width: 100vw;
+  overflow: scroll;
+}
+.scroll {
+  width: fit-content;
+}
+.gapscroll {
+  gap: 16px;
+}
+.scrollbody {
+  width: 274px;
+  height: 495px;
+  background-size: cover;
+  background-position: center;
+}
+.scroll1 {
+  background-image: url(/34e51e39872210aa06e802ad1aa23f047c1ae9d5.jpg);
+}
+.scroll2 {
+  background-image: url(/4cab1570e2f6107d413dfa8f5ee5529aded13420.jpg);
+}
+.scroll3 {
+  background-image: url(/6803192320c01991746406d30d1c209f915d5669.jpg);
+}
+.scroll4 {
+  background-image: url(/75cfc40b3d83f8f3ff5b779dc0a66f085f6ef502.jpg);
+}
+.scroll5 {
+  background-image: url(/d6d754a221c2eb7a8b29f50f4b07ed57a5561306.jpg);
+}
+.tablist {
+  height: 8px;
+  width: 220px;
+  gap: 18px;
+}
+.tab {
+  height: 8px;
+  width: 8px;
+  border-radius: 8px;
+  background-color: darkgrey;
+}
 @media (min-width: 768px) {
   .azpro {
     background-image: url(/ippro.png);
+  }
+  .inazpro {
+    padding-top: 58px;
+  }
+  .az {
+    background-image: url(/azhevtee.jpg);
+    padding-top: 58px;
+  }
+  .inaz {
+    padding-top: 58px;
+  }
+  .ipadair {
+    background-image: url(/hevteeipad.jpg);
+  }
+  .inipadair {
+    padding-top: 58px;
+  }
+  .hos1 {
+    flex-direction: row;
+  }
+  .hos2 {
+    flex-direction: row;
+  }
+  .hos3 {
+    flex-direction: row;
+  }
+  .scrollbox {
+    height: 412px;
+  }
+  .scrollbody {
+    width: 689px;
+    height: 368px;
+  }
+  .scroll1 {
+    background-image: url(/scroll1tab.jpg);
+  }
+
+  .scroll1 {
+    background-image: url(/scrool2tab.jpg);
+  }
+  .scroll3 {
+    background-image: url(/scroll3tab.jpg);
   }
 }
