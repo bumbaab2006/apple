@@ -140,6 +140,10 @@
 .inaz {
   padding-top: 36px;
 }
+.giftmagic {
+  background-image: url(/magicgift.jpg);
+  display: none;
+}
 .ipadair {
   background-image: url(/ipadair.jpg);
 }
@@ -408,4 +412,17 @@
     margin-right: 15px;
   }
 }
-@media (min-width: 1024px);
+@media (min-width: 1024px) {
+  .forbackground {
+    height: 692px;
+  }
+  .azpro {
+    background-image: url(/prodesk.jpg);
+  }
+  .az {
+    background-image: url(/azdesk.jpg);
+  }
+  .giftmagic {
+    display: flex;
+  }
+}
