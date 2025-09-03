@@ -286,6 +286,64 @@
   border-radius: 8px;
   background-color: darkgrey;
 }
+.lastp2 {
+  height: 160px;
+  overflow: scroll;
+  gap: 12px;
+  width: 100vw;
+}
+.inlastp2 {
+  height: 160px;
+  width: 238px;
+}
+.lastbar {
+  height: 134px;
+  width: 238px;
+  background-color: rgba(101, 41, 207, 1);
+}
+.musicicon {
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+.lastbarphoto1 {
+  background-image: url(/bk1.jpg);
+  height: 114px;
+  width: 114px;
+  margin-left: 60px;
+}
+.musicicon {
+  background-image: url(/musicicon.svg);
+  width: 40.8px;
+  height: 9.63px;
+  margin-top: 115px;
+  margin-left: 10px;
+}
+.lastbarphoto2 {
+  background-image: url(/bc2.jpg);
+  width: 238px;
+  height: 134px;
+}
+.lastgap {
+  gap: 10px;
+}
+.lastp2 p {
+  margin: 0;
+}
+.ending {
+  height: 56px;
+  width: 100vw;
+  background-color: white;
+  justify-content: end;
+}
+.videobutton {
+  background-image: url(/videobutton.svg);
+  height: 24px;
+  width: 24px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 20px;
+}
 @media (min-width: 768px) {
   .azpro {
     background-image: url(/ippro.png);
@@ -322,14 +380,32 @@
     width: 689px;
     height: 368px;
   }
+
   .scroll1 {
     background-image: url(/scroll1tab.jpg);
   }
 
-  .scroll1 {
-    background-image: url(/scrool2tab.jpg);
+  .scroll2 {
+    background-image: url(/scroll2tab.jpg);
   }
   .scroll3 {
     background-image: url(/scroll3tab.jpg);
   }
+  .scroll4 {
+    background-image: url(/scroll0tab.jpg);
+  }
+  .lastbarphoto1 {
+    background-image: none;
+    background-color: rgba(101, 41, 207, 1);
+  }
+  .lastbar {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+  .musicicon {
+    margin-bottom: 15px;
+    margin-right: 15px;
+  }
 }
+@media (min-width: 1024px);
