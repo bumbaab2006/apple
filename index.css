@@ -4,6 +4,18 @@
   background-size: cover;
   background-position: center;
 }
+.forbackground1 {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+.forbackground2 {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -159,6 +171,7 @@
   background-clip: text;
   width: 166px;
   height: 18px;
+  margin-bottom: 35px;
 }
 .rnbwhello p {
   margin: 0;
@@ -245,8 +258,7 @@
 .trade .learnmore {
   width: 160px;
 }
-.last {
-}
+
 .scrollbox {
   height: 533px;
   width: 100vw;
@@ -348,6 +360,11 @@
   background-position: center;
   margin-right: 20px;
 }
+.gridcon {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: rgba(245, 245, 247, 1);
+}
 @media (min-width: 768px) {
   .azpro {
     background-image: url(/ippro.png);
@@ -411,11 +428,14 @@
     margin-bottom: 15px;
     margin-right: 15px;
   }
-}
-@media (min-width: 1024px) {
-  .forbackground {
-    height: 692px;
+  .gridcon {
+    grid-template-columns: auto auto;
   }
+  .ipadair {
+    grid-column: 1 / span 2;
+  }
+}
+@media (min-width: 1920px) {
   .azpro {
     background-image: url(/prodesk.jpg);
   }
@@ -424,5 +444,29 @@
   }
   .giftmagic {
     display: flex;
+  }
+  .gridcon {
+    grid-template-columns: auto auto;
+  }
+  .airpod {
+    background-image: url(/airpodpro2jpg.jpg);
+  }
+  .iwatch {
+    background-image: url(/iwatchnew.jpg);
+  }
+  .carrierdeals {
+    background-image: url(/applecard.jpg);
+  }
+  .ipadair {
+    grid-column: 1 / span 1;
+  }
+  .macbook {
+    background-image: url(/mackbooknew.jpg);
+  }
+  .trade {
+    background-image: url(/tradenew.jpg);
+  }
+  .forsmallbussines {
+    display: none;
   }
 }
