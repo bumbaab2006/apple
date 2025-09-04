@@ -112,3 +112,19 @@ p {
   background-position: center;
   background-size: cover;
 }
+.detailtext {
+  width: 322px;
+  align-items: flex-start;
+  margin: 30px 30px;
+}
+.appleinteligence {
+  width: 132px;
+  height: 14px;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 12px;
+}
+.s2text {
+  align-items: flex-start;
+  gap: 12px;
+}
