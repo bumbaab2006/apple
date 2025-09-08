@@ -1,3 +1,81 @@
+.inter-textstorefont2 {
+  font-optical-sizing: auto;
+
+  font-style: normal;
+  color: #6e6e73;
+  font-family: Inter;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 52.01px;
+}
+.inter-textstorefont1 {
+  font-optical-sizing: auto;
+
+  font-style: normal;
+  font-family: Inter;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 52.01px;
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header p {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -0.28px;
+}
+.headtext p {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.inshoppinghelp p:first-child {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+.inshoppinghelp p:nth-child(2) {
+  color: #06c;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  align-self: stretch;
+}
+.producttext p {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
 p {
   margin: 0;
 }
@@ -42,12 +120,6 @@ p {
 .insec1-1 {
   height: 52px;
   gap: 32px;
-}
-.textstore {
-  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .shoppinghelp {
   align-items: flex-start;
@@ -127,4 +199,94 @@ p {
 .s2text {
   align-items: flex-start;
   gap: 12px;
+}
+.storecardbg {
+  background-image: url(/store-card.png);
+}
+.sec4bg2 {
+  background-image: url(/sec4bg2.png);
+}
+.fit {
+  width: fit-content;
+}
+.sec4mini {
+  display: flex;
+  width: 313px;
+  height: 500px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+.s4minitextbox {
+  width: 313px;
+  height: 240px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
+}
+.s4rec {
+  width: 253px;
+  height: 53px;
+}
+.s4minitext {
+  width: 313px;
+  height: 500px;
+  gap: 20px;
+}
+.s5bg1 {
+  background-image: url(/s5bg1.png);
+}
+.s5bg2 {
+  background-image: url(/s5bg2.png);
+}
+.s5bg3 {
+  background-image: url(/s5bg3.png);
+}
+.s5bg4 {
+  background-image: url(/s5bg4.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.s6bg1 {
+  background-image: url(/s6bg1.png);
+}
+.s6bg2 {
+  background-image: url(/s6bg5.png);
+}
+.s6bg3 {
+  background-image: url(/s6bg3.png);
+}
+.s6bg4 {
+  background-image: url(/s6bg4.png);
+}
+.s6bg5 {
+  background-image: url(/s6bg5.png);
+  background-position: center;
+  background-size: cover;
+}
+.detailss6 {
+  width: 400px;
+  height: 500px;
+  align-items: flex-start;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
+}
+.footer {
+  width: 100vw;
+  height: 96px;
+  padding: 0 140px;
+  align-items: flex-start;
+  gap: 24px;
+}
+.footerlinks {
+  gap: 12px;
+  align-self: stretch;
+}
+.infooterlinks {
+  padding: 10px 12px;
+  gap: 8px;
+  border-radius: 999px;
+  border: 1px solid #1d1d1f;
 }
